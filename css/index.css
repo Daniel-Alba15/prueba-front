@@ -7,7 +7,6 @@ header {
     background-color: #f4f4f4;
 }
 
-
 i {
     color: #005385;
 }
@@ -19,8 +18,6 @@ i {
     align-items: center;
     padding: 1.5rem 0;
 }
-
-
 
 .search-bar input[type=text] {
     padding: 15px;
@@ -42,23 +39,6 @@ i {
 }
 
 
-/* .search-bar {
-    float: right;
-    margin: 7px;
-} */
-
-/* .search-bar button {
-    background-color: green;
-    color: #f2f2f2;
-    float: right;
-    height: auto;
-    padding: 5px 10px;
-    margin-right: 16px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-} */
-
 #logo {
     margin-left: 15rem;
 }
@@ -72,7 +52,7 @@ i {
 #pedidos {
     color: #005385;
     text-decoration: none;
-
+    font-weight: bold;
 }
 
 #content {
@@ -90,4 +70,41 @@ i {
 #main-img {
     height: 80vh;
     width: 100%;
+}
+
+#products-btn {
+    padding: 20px;
+    font-size: 1.7rem;
+    background-color: #0089dd;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+#second-section {
+    margin: 25px auto;
+    width: 100%;
+    font-size: 1.5rem;
+    max-width: fit-content;
+}
+
+#second-section div {
+    display: inline-block;
+    text-align: center;
+    margin: auto 9px;
+
+}
+
+#second-section img {
+    border-radius: 5px;
+}
+
+#second-section div:hover {
+    color: #008be5;
+}
+
+#second-section img:hover {
+    display: block;
+    opacity: .5;
 }
