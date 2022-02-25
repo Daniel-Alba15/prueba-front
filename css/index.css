@@ -111,26 +111,30 @@ i {
     opacity: .5;
 }
 
-#new-colection {
+.new-colection {
     width: 80%;
     margin: 100px auto auto auto;
     max-width: fit-content;
 }
 
-#new-colection h1 {
+.new-colection h1 {
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
     color: #0068b8;
 }
 
-#new-colection div {
+.new-colection div {
     font-weight: bold;
     /* margin: auto 19px; */
 }
 
-.add-cart {
+.hidden {
     display: none;
+
+}
+
+.add-cart {
     width: 85%;
     padding: 15px 0px;
     margin-top: 5px;
@@ -142,7 +146,7 @@ i {
     font-weight: bold;
 }
 
-#new-colection div:hover .add-cart {
+.new-colection div:hover .add-cart {
     display: inline-block;
 }
 
@@ -178,7 +182,7 @@ i {
 footer {
     background-color: #1b1b1b;
     color: white;
-
+    margin-top: 20px;
 }
 
 #footer-flex {
